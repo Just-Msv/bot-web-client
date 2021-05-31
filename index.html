@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bot Configuration</title>
+	<meta name="author" description="Maded by Msv">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
+</head>
+<body>
+	<span class="side-button" onclick="document.getElementById('sidv').style.display = 'block';document.getElementById('sidv').style.opacity = '1'">Open Eval...</span>
+	<div class="side-nav" id="sidv">
+		<h3>Eval  Function...</h3>
+		<textarea id="console" placeholder="Put Discord.js Code here..."></textarea>
+		<button  onclick="evalrun('console');">Run!</button>
+		<button  onclick="this.parentElement.style.display = 'none'" style="background: #f44026">Close Eval...</button>
+	</div>
+	<center>
+	<p>Discord bot Client Console</p>
+	</center>
+	<div  class="a">
+		<span id="a"></span>
+		<div class="msg-line"><span class="hover-line"></span>(Time) [Events] [Type] >> content</div>
+		<div class="msg-line"><span class="hover-line"></span>You can send messages to channel or DM by clicking the <a class="clicky">[<font color="lightgreen">GuildName</font>/<font color="orange">ChannelName</font>]</a> in <font color="lightblue" class="clicky"> [MESSAGE] </font> Event</div>
+	</div>
+
+
+
+	<script type="text/javascript" src="js/discord.11.5.0.js"></script>
+	<script type="text/javascript" src="js/client-main.js">
+	</script>
+
+	<script type="text/javascript" src=""></script>
+	<script type="text/javascript" src="js/vanilla-main.js">
+	</script>
+	
+</body>
+</html>
