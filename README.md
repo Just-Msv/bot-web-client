@@ -1,4 +1,4 @@
-# Discord Bot Clinet Console
+# Discord Bot Client Console
 
 - A Discord bot Client Console Website made with html , css and js.
 - And Easy Use and easy to run
