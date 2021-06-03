@@ -5,8 +5,8 @@
 
 ## Setup ⚒
 
-- Import the Repo by typing git clone `https://github.com/MSVFORYOU/bot-web-client` 
-- Create a bot application at the [discord developer portal](https://discord.com/developers/applications) and add to your discord server. 
+- Import the Repo by typing git clone `https://github.com/Just-Msv/bot-web-client` 
+- Create a bot application at the [discord developer portal](https://discord.com/developers/applications) and copy Ur Token
 - Convert The Repo Into HTML,CSS & JS and run 
 - Now Your Console Is Ready
 
